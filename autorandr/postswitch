@@ -1,0 +1,4 @@
+#!/bin/bash
+i3-msg restart
+pactl set-default-source alsa_input.pci-0000_00_1f.3.analog-stereo
+pactl set-default-sink alsa_output.usb-Generic_USB_Audio_200901010001-00.HiFi__hw_Dock_1__sink
