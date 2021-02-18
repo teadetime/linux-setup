@@ -1,0 +1,10 @@
+#!/bin/bash
+xinput map-to-output 'HUION Huion Tablet stylus' DP-1-2-1
+xsetwacom --set 'HUION Huion Tablet Pad pad' Button 1 "key +ctrl +z -z -ctrl"
+xsetwacom --set 'HUION Huion Tablet Pad pad' Button 2 "key e ctrl shift e"
+xsetwacom --set 'HUION Huion Tablet Pad pad' Button 3 "key p ctrl shift p"
+xsetwacom --set 'HUION Huion Tablet Pad pad' Button 8 "key ctrl + ctrl shift +"
+xsetwacom --set 'HUION Huion Tablet Pad pad' Button 9 "key ctrl -"
+xsetwacom --set 'HUION Huion Tablet Pad pad' Button 10 "key ]"
+xsetwacom --set 'HUION Huion Tablet Pad pad' Button 11 "key ["
+xsetwacom --set 'HUION Huion Tablet Pad pad' Button 12 "key v ctrl shift a"
